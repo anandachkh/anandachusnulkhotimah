@@ -1,0 +1,162 @@
+body {
+	background-color: #DEB887;
+	margin: 0;
+	right: 100px;
+	margin: auto;
+}
+
+.container {
+	width: 970px;
+	text-align: justify;
+	margin: auto;
+}
+
+.banner {
+	height: 630px;
+	background-color: black;
+	background-image: url(gambar/banner2.jpg);
+	background-size: 100%;
+
+	background-position: center;
+}
+
+.nav {
+	height: 50px;
+	text-align: center;
+	background-color: lightsalmon;
+
+}
+
+.nav a {
+	display: inline-block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+input{type=text}:focus, input[type=password]:focus {
+	background-color: lightpink;
+	outline: none;
+}
+
+hr{
+	border: 1px solid;
+	margin-bottom: 25px;
+}
+#kata {
+	background-color: #FAEBD7;
+	padding: 10px 10px;
+	text-align: center;
+
+}
+.content {
+	height: 1020px;
+	background-color: white;
+	padding: 10px 10px;
+
+}
+
+.artikel{
+	height: 950px;
+}
+.footer {
+	height: 50px;
+	clear: both;
+	background-color: lightsalmon;
+	padding-top: 15px;
+}
+
+.footer p {
+	color: black;
+	padding-top: 0;
+	text-align: center;
+	font-size: 16px;
+}
+.piring {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  height: 670px;
+}
+
+.reyna {
+  width: 300px;
+  height: 585px;
+  background-image: url(gambar/reyna.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  text-indent: -9999px;
+  top: 870px;
+  left: 595px;
+  opacity: 30%;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.piring img{
+  float: left;
+  width: 270px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+
+.piring ul li {
+  text-align: justify;
+}
+
+.piring ul li a {
+  color: #dc3d4b;
+  text-decoration: none;
+  width: 270px;
+}
+
+.piring p {
+  text-align: justify;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+
+input[type=submit] {
+  background-color: #dc3d4b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #04AA6D;
+}
+
+.about {
+	height: 260px;
+	 background-color: #f2f2f2;
+  padding: 20px;
+}
+.about img {
+	float: left;
+	padding-right: 10px;
+}
